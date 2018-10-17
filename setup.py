@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ip_on_console",
-    version="0.0.1",
+    version="0.0.2",
     author="crazymanjinn",
     author_email="crazymanjinn@users.noreply.github.com",
     description="Populates IP address info into /etc/issue.d",
@@ -17,7 +17,7 @@ setuptools.setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-        "Operating System :: OS Independent",
+        "Operating System :: POSIX :: Linux",
         "Programming Language :: Python :: 3",
     ],
     install_requires=[

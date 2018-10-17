@@ -1,2 +1,2 @@
 # ip_on_console
-Populates IP address into /etc/issue
+Add IP addresses to /etc/issue
